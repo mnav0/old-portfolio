@@ -1,11 +1,13 @@
 import React from 'react';
+
+import Home from '../Home';
+
 import styles from './styles.css';
-// import component1 from '../component1';
 
 const App = () => {
   return (
     <div className={styles.app}>
-      <p>Sup bitch</p>
+      <Home />
     </div>
   );
 };
