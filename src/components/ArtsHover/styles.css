@@ -1,0 +1,7 @@
+.arts-hover {
+    font-weight: 500;
+    color: var(--light-yellow);
+    display: inline-block;
+    text-decoration: underline;
+    font-style: italic;
+}

@@ -1,5 +1,5 @@
-.app {
-  text-align: center;
+body {
+  background-color: var(--dark-blue);
 }
 
 

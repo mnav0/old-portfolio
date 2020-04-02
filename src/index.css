@@ -1,4 +1,8 @@
-
+:root {
+  --dark-blue: #5E6881;
+  --pink: #F5A0A7;
+  --light-yellow: #FFFCD6;
+}
 body {
   margin: 0;
   font-family: skolar-sans-latin-condensed, sans-serif;
