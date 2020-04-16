@@ -1,12 +1,12 @@
 import React from 'react';
-import DesignHover from '../../components/DesignHover';
-import DevelopHover from '../../components/DevelopHover';
-import ArtsHover from '../../components/ArtsHover';
+import IntroStatement from '../../components/IntroStatement';
 import './styles.css';
 
 const Home = () => {
     return (
-        <div className="intro-statement">A <DesignHover></DesignHover> and <DevelopHover></DevelopHover> with a background in <ArtsHover></ArtsHover>.</div>
+        <div>
+            <IntroStatement></IntroStatement>
+        </div>
         
     );
 };

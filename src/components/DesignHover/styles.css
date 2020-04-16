@@ -3,4 +3,5 @@
     color: var(--light-yellow);
     display: inline-block;
     text-decoration: underline;
+    cursor: pointer;
 }

@@ -4,4 +4,5 @@
     display: inline-block;
     text-decoration: underline;
     letter-spacing: 0.1em;
+    cursor: pointer;
 }
