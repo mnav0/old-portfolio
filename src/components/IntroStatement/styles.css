@@ -1,48 +1,68 @@
 .intro-statement {
     position: relative;
-    left: 6.8%;
-    width: 71.6%;
-    font-size: 40px;
-    font-weight: 100;
+    left: 21.875%;
+    width: 72.5%;
+    font-size: 42px;
     color: var(--light-yellow);
     line-height: 1.3;
     margin-top: 20%;
+    padding-top: 2%;
 }
-
  .intro-statement p {
     display: inline-block;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-family: 'Fira Sans Hair', sans-serif;
+    margin-right: 1.2%;
  }
- 
 .intro-hover-design {
     display: none;
 }
-
 .fade-away {
-    opacity: 0.4;
+    opacity: 0.3;
 }
-
 .show {
-    display: block;
+    opacity: 1;
 }
-
+.hide {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.circles {
+    width: 13.75%;
+    position: relative;
+    left: 5.625%;
+}
+.pink-circle, .yellow-circle, .blue-circle {
+    width: 88%;
+    position: absolute;
+    transition: opacity 0.2s ease-in-out;
+}
+.pink-circle {
+    z-index: 2;
+}
+.profile-drawing {
+    z-index: 1;
+    width: 60%;
+    position: absolute;
+    left: 9%;
+    margin-top: 18%;
+    transition: opacity 0.2s ease-in-out;
+}
+.yellow-circle {
+    z-index: 0;
+}
+.blue-circle {
+    z-index: -1;
+}
 .design-shapes {
     position: relative;
     display: none;
 }
-
 .design-shape-1 {
-    position: fixed;
-    top: 41px;
-    right: 0px;
-}
-
-.design-shape-2 {
     position: fixed;
     bottom: -10px;
 }
-
 .show-shapes {
     display: block;
 }

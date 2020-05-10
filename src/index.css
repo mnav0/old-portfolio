@@ -2,11 +2,12 @@
   --dark-blue: #5E6881;
   --pink: #F5A0A7;
   --light-yellow: #FFFCD6;
+  --light-blue: #CCD3E8;
+
 }
 body {
   margin: 0;
-  font-family: skolar-sans-latin-condensed, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-

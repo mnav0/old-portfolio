@@ -1,15 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import './styles.css';
+import logoHead from '../../assets/logo-sm-full.png';
 
 
+const Header = () => {
+    const [hoverHeadName, setHoverHead] = useState(false);
+    const [hoverHeadLogo, setHoverLogo] = useState(false);
+    var headerName = "header-name" + (hoverHeadName ? " hovered-head" : "");
 
-const Header = ( aboutLink ) => {
+    const updateHoverHead = () => {
+        setHoverHead(!hoverHeadName)
+    }
+
+    const updateHoverLogo = () => {
+        setHoverLogo(!hoverHeadLogo)
+    }
+
     return (
-        <div className={"header"}>
-            <img src={require("../../assets/logo.png")} className = "header-logo" alt="MN logo"/>
-            <a href={aboutLink} className = "header-name">magdalena navracruz</a>
-            <div className="line">
-            </div>
+        <div className={hoverHeadLogo ? "header hovered-logo" : "header"}>
+            <NavLink to="/"><img src={logoHead} onMouseEnter={() => updateHoverLogo()}
+                                onMouseLeave={() => updateHoverLogo()}
+                                className = "header-logo" alt="Logo"/></NavLink>
+            <NavLink to="/about" onMouseEnter={() => updateHoverHead()}
+                                onMouseLeave={() => updateHoverHead()}
+                                className = {headerName}>magdalena navracruz</NavLink>
         </div>
     );
 };

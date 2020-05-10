@@ -1,0 +1,40 @@
+.nav-bar {
+    font-size: 22px;
+    position: relative;
+    left: 5.625%;
+    top: 60px;
+    width: 94.375%;
+}
+.design-nav {
+    display: inline-block;
+    cursor: pointer;
+    color: var(--light-yellow);
+    font-weight: 900;
+    margin-right: 2.5%;
+}
+.develop-nav {
+    display: inline-block;
+    cursor: pointer;
+    color: var(--light-yellow);
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    margin-right: 2.5%;
+}
+.arts-nav {
+    display: inline-block;
+    cursor: pointer;
+    color: var(--light-yellow);
+    font-weight: 400;
+    font-style: italic;
+}
+.active {
+    opacity: 1 !important;
+    transition: opacity 0.2s ease-in-out;
+}
+.resting-state {
+    opacity: 0.4;
+    transition: opacity 0.2s ease-in-out;
+}
+.active:hover {
+    opacity: 1;
+}

@@ -1,0 +1,26 @@
+.about-all {
+    left: 6.8%;
+    width: 86.4%;
+    top: 75px;
+    position: relative;
+}
+.about-picture {
+    position: absolute;
+    width: 47%;
+}
+.about-text {
+    position: absolute;
+    right: 0%;
+    width: 47%;
+    color: var(--light-yellow);
+}
+.about-text h1 {
+    font-family: edita, serif;
+    font-weight: 500;
+    margin-top: 0px;
+    font-size: 36px;
+}
+.about-text p {
+    font-weight: 200;
+    font-size: 18px;
+}

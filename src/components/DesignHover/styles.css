@@ -2,6 +2,6 @@
     font-weight: 900;
     color: var(--light-yellow);
     display: inline-block;
-    text-decoration: underline;
     cursor: pointer;
+    margin-right: 1.2%;
 }

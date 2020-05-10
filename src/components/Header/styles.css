@@ -1,27 +1,37 @@
 .header {
-    width: 100% !important;
-    height: 40px;
+    height: 45px;
     background-color: #ffffff;
-    z-index: 2;
-    position: relative;
     overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
 }
 
 .header-logo {
-    padding-top: 20px;
-    height: 21px;
-    min-width: 1280px;
+    max-width: 65px;
     position: absolute;
+    left: 5.625%;
+    top: 16px;
 }
 
 .header-name {
-    padding-top: 12px;
-    right: 4.6875%;
+    padding-top: 15px;
     position: absolute;
+    right: 5.625%;
     font-family: edita-small, serif;
     font-size: 18px;
-    text-decoration: underline;
-    text-decoration-color: var(--pink);
+    text-decoration: none;
     color: var(--dark-blue);
     cursor: pointer;
+}
+
+.hovered-head {
+    color: var(--light-blue);
+    /* text-decoration: underline;
+    text-decoration-color: #ecd06e; */
+    transition: color 0.5s ease-in-out;
+}
+
+.hovered-logo {
+    overflow-y: visible !important;
+    position: relative;
 }

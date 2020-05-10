@@ -3,24 +3,18 @@ import DesignHover from '../DesignHover';
 import DevelopHover from '../DevelopHover';
 import ArtsHover from '../ArtsHover';
 import './styles.css';
-import {ReactComponent as DesignShape1} from '../../assets/design1.svg';
-import {ReactComponent as DesignShape2} from '../../assets/design2.svg';
+import { NavLink } from 'react-router-dom';
 
-function IntroStatement(props) {
+import {ReactComponent as DesignShape1} from '../../assets/design1.svg';
+import pinkCircle from '../../assets/logo-lg-pink.png';
+import yellowCircle from '../../assets/logo-lg-yellow.png';
+import blueCircle from '../../assets/logo-lg-blue.png';
+import drawing from '../../assets/profile-drawing.png';
+
+function IntroStatement() {
     const [hoverDesign, setHoverDesign] = useState(false)
     const [hoverDevelop, setHoverDevelop] = useState(false)
     const [hoverArts, setHoverArts] = useState(false)
-
-    // constructor () {
-    //     super()
-
-    //     this.state = {
-    //         hover: false,
-    //         hover2: false
-    //     }
-
-    //     this.updateHoverState = this.updateHoverState.bind(this)
-    // }
 
     const updateHoverDesign = () => {
         setHoverDesign(!hoverDesign)
@@ -36,28 +30,31 @@ function IntroStatement(props) {
 
     return (
         <div>
-        <div className="intro-statement">
-            <p className={hoverDesign || hoverDevelop || hoverArts ? "fade-away" : ""}>A</p>&nbsp;
+            <div className="circles">
+                <img src={drawing} alt="Portrait drawing" className={hoverDesign || hoverDevelop || hoverArts ? "profile-drawing hide" : "profile-drawing"}/>
+                <img src={pinkCircle} alt="Pink circle" className={hoverDesign || hoverArts ? "pink-circle hide" : "pink-circle"}/>
+                <img src={yellowCircle} alt="Yellow circle" className={hoverArts || hoverDevelop ? "yellow-circle hide" : "yellow-circle"}/>
+                <img src={blueCircle} alt="Blue circle" className={hoverDesign || hoverDevelop ? "blue-circle hide" : "blue-circle"}/>
+            </div>
+            <div className="intro-statement">
+                <p className={hoverDesign || hoverDevelop || hoverArts ? "fade-away" : ""}>A </p>
 
-            <DesignHover updateHoverDesign={updateHoverDesign} className={hoverDevelop || hoverArts ? "fade-away" : ""}/>&nbsp;
-            
-            <p className={hoverDesign || hoverDevelop || hoverArts ? "fade-away" : ""}>and</p>&nbsp;
+                <NavLink to="/design"><DesignHover updateHoverDesign={updateHoverDesign} className={hoverDevelop || hoverArts ? "fade-away" : ""}/></NavLink>
+                
+                <p className={hoverDesign || hoverDevelop || hoverArts ? "fade-away" : ""}>and </p>
 
-            <DevelopHover updateHoverDevelop={updateHoverDevelop} className={hoverDesign || hoverArts ? "fade-away" : ""}/>&nbsp;
+                <NavLink to="/develop"><DevelopHover updateHoverDevelop={updateHoverDevelop} className={hoverDesign || hoverArts ? "fade-away" : ""}/></NavLink>
 
-            <p className={hoverDesign || hoverDevelop || hoverArts ? "fade-away" : ""}>with a background in</p>&nbsp;
+                <p className={hoverDesign || hoverDevelop || hoverArts ? "fade-away" : ""}>with a background in </p>
 
-            <ArtsHover updateHoverArts={updateHoverArts} className={hoverDesign || hoverDevelop ? "fade-away" : ""}/>
+                <NavLink to="/arts"><ArtsHover updateHoverArts={updateHoverArts} className={hoverDesign || hoverDevelop ? "fade-away" : ""}/></NavLink>
 
-            <p>.</p>
-        </div>
+                <p>.</p>
+            </div>
 
             <div className= {hoverDesign ? "design-shapes show-shapes" : "design-shapes"}>
                 <div className="design-shape-1">
                     <DesignShape1 />
-                </div>
-                <div className="design-shape-2">
-                    <DesignShape2 />
                 </div>
             </div>
         </div>

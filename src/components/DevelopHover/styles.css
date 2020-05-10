@@ -1,8 +1,8 @@
 .develop-hover {
-    font-weight: 600;
+    font-weight: 500;
     color: var(--light-yellow);
     display: inline-block;
-    text-decoration: underline;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.12em;
     cursor: pointer;
+    margin-right: 1.2%;
 }
