@@ -7,20 +7,40 @@
 .about-picture {
     position: absolute;
     width: 47%;
+    height: 500px;
 }
 .about-text {
     position: absolute;
+    top: 30px;
     right: 0%;
     width: 47%;
     color: var(--light-yellow);
 }
 .about-text h1 {
     font-family: edita, serif;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 0px;
-    font-size: 36px;
+    font-size: 32px;
 }
 .about-text p {
     font-weight: 200;
     font-size: 18px;
+}
+.about-picture .circles {
+    width: 100%;
+    position: relative;
+    left: 0px;
+}
+.about-picture .pink-circle, .about-picture .yellow-circle, .about-picture .blue-circle {
+    width: 100%;
+    position: absolute;
+}
+.about-picture .pink-circle {
+    z-index: 2;
+}
+.about-picture .profile {
+    position: absolute;
+    width: 88%;
+    top: 45px;
+    left: 50px;
 }

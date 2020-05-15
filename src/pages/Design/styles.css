@@ -1,9 +1,16 @@
 .design-shape-2 {
     position: absolute;
-    top: 45px;
+    top: 25px;
     right: 0px;
+    z-index: -1;
+    width: 700px;
 }
 .wandr-overview {
     position: relative;
-    top: 100px;
+    top: 75px;
+}
+
+.pwp-overview {
+    position: relative;
+    top: 125px;
 }

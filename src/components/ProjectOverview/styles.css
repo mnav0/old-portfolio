@@ -1,29 +1,28 @@
 .project-overview {
     height: 375px;
     -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 251, 245, 0.6);
+    backdrop-filter: blur(12px);
+    background-color: rgba(255, 255, 255, 0.6);
     width: 88.75%;
     margin-left: 5.625%;
     border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
 }
 .project-overview .text {
     position: absolute;
     left: 7%;
     width: 35%;
-    top: 80px;
+    top: 90px;
 }
 .project-overview .title {
     font-family: edita, serif;
     font-weight: 700;
-    font-size: 32px;
-    color: var(--dark-blue);
+    font-size: 26px;
     position: relative;
     margin-bottom: 0px;
 }
 .project-overview .description {
     font-weight: 300;
-    color: var(--dark-blue);
     margin: 10px 0px 5px 0px;
     font-size: 16px;
 }
@@ -31,26 +30,33 @@
     display: inline-block;
     font-size: 14px;
     font-weight: 300;
-    color: var(--dark-blue);
     padding: 5px 7px 5px 7px;
-    border: 1px solid var(--dark-blue);
+    border: 1px solid;
     border-radius: 5px;
     margin: 10px 7px 0px 0px;
 }
 .project-overview .images {
-    width: 44%;
+    width: 46%;
     position: absolute;
-    bottom: -5px;
+    bottom: -6px;
     right: 7%;
 }
+.project-overview .desktop-container {
+    width: 68.2%;
+    overflow: hidden;
+}
 .project-overview .desktop {
-    width: 80%;
+    width: 115%;
     position: relative;
     border-radius: 2px 2px 0px 0px;
 }
 .project-overview .mobile {
-    width: 30%;
+    width: 32%;
     position: absolute;
     right: 0px;
-    bottom: 5px;
+    bottom: 4px;
+}
+.project-overview:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+    transition: background-color 0.2s ease-in-out;
 }

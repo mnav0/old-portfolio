@@ -1,0 +1,31 @@
+.project-head {
+    height: calc(100vh - 170px);
+    padding: 125px 13.125% 0 13.125%;
+    overflow: hidden;
+}
+.project-head .title {
+    font-family: edita, serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+.project-head .description {
+    font-weight: 200;
+    font-size: 22px;
+    margin-top: 12px;
+}
+.project-head .desktop {
+    width: 80%;
+    border-radius: 3px 3px 0px 0px;
+}
+.project-head .mobile {
+    width: 23%;
+    position: absolute;
+    right: 0px;
+    bottom: 2px;
+    z-index: -1;
+}
+.project-head .images {
+    position: relative;
+    top: 63px;
+    z-index: 0;
+}

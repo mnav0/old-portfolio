@@ -6,6 +6,7 @@ import About from '../About';
 import Design from '../Design';
 import Develop from '../Develop';
 import Arts from '../Arts';
+import Wandr from '../Wandr';
 
 import Header from '../../components/Header';
 import styles from './styles.css';
@@ -21,6 +22,7 @@ const App = () => {
              <Route path="/design" component={Design}/>
              <Route path="/develop" component={Develop}/>
              <Route path="/arts" component={Arts}/>
+             <Route path="/wandr" component={Wandr}/>
       </Switch>
     </div>
     </BrowserRouter>
