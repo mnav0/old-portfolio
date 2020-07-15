@@ -1,0 +1,29 @@
+.line-from .line {
+    border: solid var(--pink);
+    border-width: 0px 0 5px 0;
+    width: 800px;
+    display: inline-block;
+}
+.line-from .title {
+    font-family: 'edita';
+    font-style: italic;
+    font-weight: 700;
+    color: var(--light-yellow);
+    display: inline-block;
+    font-size: 4vw;
+    margin-left: 13.125%;
+}
+.line-from .descriptions p {
+    font-weight: 200;
+    color: var(--light-yellow);
+    font-size: 1.8vw;
+    width: 73.75%;
+    margin-left: 13.125%;
+}
+.line-from .line-container {
+    overflow-x: hidden;
+    float: right;
+    max-width: 50%;
+    position: relative;
+    top: 4.3vw;
+}

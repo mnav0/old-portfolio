@@ -7,6 +7,9 @@ import Design from '../Design';
 import Develop from '../Develop';
 import Arts from '../Arts';
 import Wandr from '../Wandr';
+import PWP from '../PWP';
+import SelfService from '../SelfService';
+import IDEA from '../IDEA';
 
 import Header from '../../components/Header';
 import styles from './styles.css';
@@ -23,6 +26,9 @@ const App = () => {
              <Route path="/develop" component={Develop}/>
              <Route path="/arts" component={Arts}/>
              <Route path="/wandr" component={Wandr}/>
+             <Route path="/pwp" component={PWP}/>
+             <Route path="/selfservice" component={SelfService}/>
+             <Route path="/idea" component={IDEA}/>
       </Switch>
     </div>
     </BrowserRouter>

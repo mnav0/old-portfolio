@@ -6,12 +6,13 @@
 .project-head .title {
     font-family: edita, serif;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 4vw;
+    position: relative;
+    top: -10px;
 }
 .project-head .description {
     font-weight: 200;
-    font-size: 22px;
-    margin-top: 12px;
+    font-size: 1.9vw;
 }
 .project-head .desktop {
     width: 80%;
@@ -25,7 +26,8 @@
     z-index: -1;
 }
 .project-head .images {
-    position: relative;
-    top: 63px;
+    position: absolute;
+    bottom: -6px;
     z-index: 0;
+    width: 73.75%;
 }

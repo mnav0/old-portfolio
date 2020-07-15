@@ -1,0 +1,18 @@
+.develop-shape-2 {
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    z-index: -1;
+}
+
+.service-portal-overview {
+    position: relative;
+    top: 75px;
+}
+.idea-overview {
+    position: relative;
+    top: 125px;
+}
+.idea-overview .project-overview {
+    margin-bottom: 50px;
+}

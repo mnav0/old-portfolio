@@ -9,8 +9,10 @@
     position: relative;
     top: 75px;
 }
-
 .pwp-overview {
     position: relative;
     top: 125px;
+}
+.pwp-overview .project-overview {
+    margin-bottom: 50px;
 }

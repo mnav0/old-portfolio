@@ -10,9 +10,9 @@ const ProjectOverview = (props) => {
     return (
         <div className="project-overview">
             <div className="text">
-                <h1 className="title" style={{color: props.textColor}}>{props.projectTitle}</h1>
-                <p className="description" style={{color: props.textColor}}>{props.projectDescription}</p>
-                <div className="tags" style={{color: props.textColor}}>{tags}</div>
+                <h1 className="title">{props.projectTitle}</h1>
+                <p className="description">{props.projectDescription}</p>
+                <div className="tags">{tags}</div>
             </div>
             <div className="images">
                 <div className="desktop-container">
