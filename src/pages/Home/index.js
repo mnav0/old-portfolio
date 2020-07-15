@@ -13,28 +13,7 @@ import yellowCircle from '../../assets/logo-lg-yellow.png';
 import blueCircle from '../../assets/logo-lg-blue.png';
 import drawing from '../../assets/profile-drawing.png';
 
-let animObj = null;
-
 function Home() {
-    // function componentDidMount() {
-    //     console.log('componentDidMount');
-        
-    //     //call the loadAnimation to start the animation
-    //     animObj = lottie.loadAnimation({
-    //       container: this.animBox, // the dom element that will contain the animation
-    //       renderer: 'svg',
-    //       loop: true,
-    //       autoplay: true,
-    //       animationData: animationData // the path to the animation json
-    //     });
-    //   }
-    //   function handleStop() {
-    //     animObj.stop();
-    //   }
-    //   function handlePlay() {
-    //     animObj.play();
-    //   }
-    
     const [hoverDesign, setHoverDesign] = useState(false)
     const [hoverDevelop, setHoverDevelop] = useState(false)
     const [hoverArts, setHoverArts] = useState(false)
@@ -86,11 +65,7 @@ function Home() {
             <div className= {hoverArts ? "arts-shape-1 show-shapes" : "arts-shape-1"}>
                 <ArtsShape1 />
             </div>
-            {/* <h2>This is my Lottie Web animation</h2>
-        {/* This is you wrapper where animation will load */}
-        {/* <div style={{width: 400, margin: '0 auto'}} ref={ ref => this.animBox = ref}></div>
-        <button onClick={handleStop()}>Stop</button>
-        <button onClick={handlePlay()}>Play</button>  */}
+            
         </div>
         
     )
