@@ -4,8 +4,6 @@ import DevelopHover from '../../components/DevelopHover';
 import ArtsHover from '../../components/ArtsHover';
 import './styles.css';
 import { NavLink } from 'react-router-dom';
-import lottie from 'lottie-web';
-import animationData from '../../lottie/delivery.json';
 
 import {ReactComponent as DesignShape1} from '../../assets/design1.svg';
 import {ReactComponent as DevelopShape1} from '../../assets/develop1.svg';
