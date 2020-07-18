@@ -20,10 +20,10 @@ const Design = () => {
                             projectTags={["UI/UX", "Branding", "Prototyping", "User Research"]}
                             desktopImage={wandrDesktop} mobileImage={wandrMobile}/>
             </NavLink>
-            <div className="pwp-overview"><ProjectOverview textColor="#5F4F4F" projectTitle="Painting without Permission" projectDescription="An installation designed to spark conversation about public art on Northeastern’s campus."
+            <NavLink to="/pwp" className="pwp-overview"><ProjectOverview textColor="#5F4F4F" projectTitle="Painting without Permission" projectDescription="An installation designed to spark conversation about public art on Northeastern’s campus."
                             projectTags={["UI/UX", "HTML/CSS", "AWS", "Experience Design"]}
                             desktopImage={pwpDesktop} mobileImage={pwpMobile}/>
-            </div>
+            </NavLink>
         </div>
     );
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 import NavBar from '../../components/NavBar';
-// import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import {ReactComponent as DevelopShape2} from '../../assets/develop2.svg';
 import ProjectOverview from '../../components/ProjectOverview';
 import selfServiceDesktop from '../../assets/self-service-desktop-1.png';
@@ -19,11 +19,11 @@ const Develop = () => {
                             projectTags={["UI/UX", "Wireframing", "User Research", "React"]}
                             desktopImage={ideaDesktop} mobileImage={ideaMobile}/>                   
         </a>
-        <div className="service-portal-overview">
+        <NavLink to="/selfservice" className="service-portal-overview">
                 <ProjectOverview background="rgba(255, 251, 245, 0.8) !important" projectTitle="Self-Service Portal" projectDescription="A self-service technology help portal to empower Manulife/John Hancock employees."
                             projectTags={["UI/UX", "Prototyping", "HTML/CSS", "JavaScript"]}
                             desktopImage={selfServiceDesktop} mobileImage={selfServiceMobile}/>
-        </div>
+                            </NavLink>
         </div>
         
     );
