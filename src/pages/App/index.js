@@ -5,7 +5,7 @@ import Home from '../Home';
 import About from '../About';
 import Design from '../Design';
 import Develop from '../Develop';
-import Arts from '../Arts';
+// import Arts from '../Arts';
 import Wandr from '../Wandr';
 import PWP from '../PWP';
 import SelfService from '../SelfService';
@@ -20,11 +20,11 @@ const App = () => {
     <div className={styles.app}>
       <Header />
       <Switch>
-             <Route path="/" component={Home} exact/>
+             <Route exact path="/" component={Home}/>
              <Route path="/about" component={About}/>
              <Route path="/design" component={Design}/>
              <Route path="/develop" component={Develop}/>
-             <Route path="/arts" component={Arts}/>
+             {/* <Route path="/arts" component={Arts}/> */}
              <Route path="/wandr" component={Wandr}/>
              <Route path="/pwp" component={PWP}/>
              <Route path="/selfservice" component={SelfService}/>

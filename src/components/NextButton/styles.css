@@ -1,0 +1,40 @@
+.next {
+    bottom: 7px;
+    position: absolute;
+    right: 0px;
+    display:inline-block;
+    /* padding-right: 1.5625%;
+    bottom: 7px;
+    width: 7.265%; */
+}
+.next p {
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    font-size: 0.88em;
+}
+.yellow {
+    color: var(--light-yellow);
+}
+.yellow-line-next {
+    border: solid var(--light-yellow);
+    border-width: 0px 0 1px 0;
+    width: 37.6%;
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+    left: -6px;
+}
+.yellow-arrow-next {
+    border: solid var(--light-yellow);
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    display: inline-block;
+}
+.light-blue {
+    color: var(--light-blue);
+    transition: color 0.2s ease-in-out;
+}

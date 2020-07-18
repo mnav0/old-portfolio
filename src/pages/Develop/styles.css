@@ -5,14 +5,14 @@
     z-index: -1;
 }
 
-.service-portal-overview {
+.idea-overview {
     position: relative;
     top: 75px;
 }
-.idea-overview {
+.service-portal-overview {
     position: relative;
     top: 125px;
 }
-.idea-overview .project-overview {
+.service-portal-overview .project-overview {
     margin-bottom: 50px;
 }

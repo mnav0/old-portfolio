@@ -26,6 +26,15 @@
     font-weight: 200;
     font-size: 18px;
 }
+.about-text a {
+    text-decoration: none;
+    font-weight: 300;
+    color: var(--light-yellow);
+    transition: 0.2s color ease-in-out;
+}
+.about-text a:hover {
+    color: var(--light-blue);
+}
 .about-picture .circles {
     width: 100%;
     position: relative;

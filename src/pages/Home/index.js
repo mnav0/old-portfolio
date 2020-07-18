@@ -49,7 +49,7 @@ function Home() {
 
                 <p className={hoverDesign || hoverDevelop || hoverArts ? "fade-away" : ""}>with a background in </p>
 
-                <NavLink to="/arts"><ArtsHover updateHoverArts={updateHoverArts} className={hoverDesign || hoverDevelop ? "fade-away" : ""}/></NavLink>
+                <a href="https://www.instagram.com/mnclaire/?hl=en" target="_blank" rel="noopener noreferrer"><ArtsHover updateHoverArts={updateHoverArts} className={hoverDesign || hoverDevelop ? "fade-away" : ""}/></a>
 
                 <p>.</p>
             </div>
