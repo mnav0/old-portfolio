@@ -19,7 +19,7 @@ const SelfService = () => {
             <ProjectHead background="#BAF8D5" textColor="#4E4E4E" headTitle="Self-Service Portal" 
                         headDescription="A self-service technology help portal to empower Manulife/John Hancock employees."
                         desktopImage={desktop1} mobileImage={mobile1}/>
-            <NavLink to="/design"><BackButton /></NavLink>
+            <NavLink to="/develop"><BackButton /></NavLink>
             <LineTo sectionTitle="coming soon!" sectionDescription={[""]}/>
             {/* <div className="project-detail">
             <LineTo sectionTitle="the problem" sectionDescription={["For my 5D Fundamentals class in the fall of 2018, we were instructed to intervene with a site or system for our final project, using the methodology of contemporary artists we had studied throughout the semester to guide us through our approach to this prompt."]} />
