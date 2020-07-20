@@ -1,8 +1,31 @@
-.project-detail img {
+.project-detail img, .mobile-images {
     width: 58.75%;
     margin-left: 20.625%;
     margin-top: 40px;
 }
 .project-detail {
     padding-bottom: 100px;
+}
+.project-detail p {
+    font-weight: 200;
+    color: var(--light-yellow);
+    font-size: 1.8vw;
+    width: 73.75%;
+    margin-left: 13.125%;
+}
+.pwp-final-2, .pwp-final-3 {
+    border-radius: 3px;
+}
+.mobile-images {
+    width: 58.75%;
+    margin-left: 20.625%;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+.pwp-final-4, .pwp-final-5 {
+    width: 48%;
+    border-radius: 3px;
+}
+.pwp-final-5 {
+    float: right;
 }
