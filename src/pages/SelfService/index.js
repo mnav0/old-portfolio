@@ -30,7 +30,7 @@ const SelfService = () => {
             <img src={home2} alt="Initial homepage 2" className="ss-home-2"/>
             <img src={home3} alt="Initial homepage 2" className="ss-home-3"/>
             <LineFrom sectionTitle="site development" sectionDescription={["After creating a finalized version of the wireframes in Adobe XD, I began to code the website using HTML and CSS.", 
-                "After the static site was mostly complete, I added animations for the dropdown menu and accordion dropdown using JavaScript and jQuery, and created a contact form using PHP that would send inquiries for technology help directly to my coworker’s email address. These additions are shown in the screenshot below."]} maxW={'55%'}/>
+                "After the static site was mostly complete, I added animations for the dropdown menu and accordion dropdown using JavaScript and jQuery, and created a contact form using PHP that would send inquiries for technology help directly to my coworker’s email address. These additions are shown in the screenshot below."]} maxW={'57%'}/>
             <img src={support3} alt="Support page 3" className="ss-support-3"/>
             <LineTo sectionTitle="final website" sectionDescription={["Below is a brief walkthrough of the final developed website."]} />
             <video src={walkthrough} width="750" height="500" controls>
