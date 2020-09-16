@@ -9,19 +9,25 @@
 .header-logo {
     max-width: 65px;
     position: absolute;
-    left: 5.625%;
+    /* left: 5.625%; */
+    left: 70px;
     top: 16px;
 }
 
 .header-name {
     padding-top: 15px;
     position: absolute;
-    right: 5.625%;
+    /* right: 5.625%; */
+    right: 70px;
     font-family: edita-small, serif;
     font-size: 18px;
     text-decoration: none;
     color: var(--dark-blue);
     cursor: pointer;
+}
+
+.header-mobile {
+    display: none;
 }
 
 .hovered-head {
@@ -34,4 +40,12 @@
 .hovered-logo {
     overflow-y: visible !important;
     position: relative;
+}
+@media only screen and (max-width: 532px) {
+    .header-mobile {
+        display: inline-block !important;
+    }
+    .header-name {
+        display: none;
+    }
 }

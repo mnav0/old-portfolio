@@ -74,3 +74,45 @@
 .show-shapes {
     display: block;
 }
+@media only screen and (max-width: 1024px) {
+    .intro-statement {
+        font-size: 4.2vw;
+        left: 28.7875%;
+        margin-top: 18%;
+    }
+    .circles {
+        width: 20.375%;
+        left: 6.85%;
+    }
+  }
+  @media only screen and (max-width: 920px) {
+    .intro-statement {
+        margin-top: 23%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .intro-statement {
+        font-size: 4.5vw;
+        margin-top: 30%;
+    }
+  }
+  @media only screen and (max-width: 634px) {
+    .circles {
+        display: none;
+    }
+    .intro-statement {
+        left: 12%;
+        margin-top: 35%;
+        font-size: 5.3vw;
+    }
+    .intro-statement p {
+        margin-right: 2%;
+     }
+  }
+  @media only screen and (max-width: 532px) {
+    .intro-statement {
+        left: 12%;
+        margin-top: 40%;
+        font-size: 5.3vw;
+    }
+  }
