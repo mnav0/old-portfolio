@@ -11,3 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* @font-face {
+  font-family: 'Fira Sans', sans-serif;
+  src: local('Fira Sans'), url('firasans.woff'), format('woff');
+} */

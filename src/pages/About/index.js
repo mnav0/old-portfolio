@@ -31,6 +31,20 @@ const About = () => {
                     <div className="arrow"></div>
                 </div>
                 </a>
+                <a href="https://github.com/mnav0" target="_blank" rel="noopener noreferrer">
+                <div className="github-button">
+                    <p>github</p>
+                    <div className="line"></div>
+                    <div className="arrow"></div>
+                </div>
+                </a>
+                <a href="https://www.linkedin.com/in/mnavracruz/" target="_blank" rel="noopener noreferrer">
+                <div className="linkedin-button">
+                    <p>LINKEDIN</p>
+                    <div className="line"></div>
+                    <div className="arrow"></div>
+                </div>
+                </a>
                 <NavLink to="/design">
                     <div className="design-button">
                         <p>design work</p>
@@ -45,6 +59,7 @@ const About = () => {
                         <div className="arrow"></div>
                     </div>
                 </NavLink>
+                
             </div>
         </div>
         

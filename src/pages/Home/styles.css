@@ -12,7 +12,8 @@
     display: inline-block;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-family: 'Fira Sans Thin', sans-serif;
+    font-family: 'fira-sans-2', sans-serif;
+    font-weight: 400;
     margin-right: 1.2%;
  }
 .intro-hover-design {
@@ -80,7 +81,7 @@
         left: 28.7875%;
         margin-top: 18%;
     }
-    .circles {
+    .home .circles {
         width: 20.375%;
         left: 6.85%;
     }
@@ -97,7 +98,7 @@
     }
   }
   @media only screen and (max-width: 634px) {
-    .circles {
+    .home .circles {
         display: none;
     }
     .intro-statement {

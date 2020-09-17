@@ -31,7 +31,7 @@ function Home() {
     }
 
     return (
-        <div>
+        <div className="home">
             <div className="circles">
                 <img src={drawing} alt="Portrait drawing" className={hoverDesign || hoverDevelop || hoverArts ? "profile-drawing hide" : "profile-drawing"}/>
                 <img src={pinkCircle} alt="Pink circle" className={hoverDesign || hoverArts ? "pink-circle hide" : "pink-circle"}/>

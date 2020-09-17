@@ -1,4 +1,5 @@
 .develop-hover {
+    font-family: 'fira-sans', sans-serif;
     font-weight: 500;
     color: var(--light-yellow);
     display: inline-block;
