@@ -1,9 +1,9 @@
 .design-shape-2 {
     position: absolute;
-    top: 25px;
+    top: 0%;
     right: 0px;
     z-index: -1;
-    width: 700px;
+    width: 55%;
 }
 .wandr-overview {
     position: relative;
@@ -16,3 +16,27 @@
 .pwp-overview .project-overview {
     margin-bottom: 50px;
 }
+@media only screen and (max-width: 1108px) {
+    .design-shape-2 {
+        top: -5%;
+        width: 52%;
+    }
+}
+@media only screen and (max-width: 933px) {
+    .design-shape-2 {
+        top: -9%;
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 775px) {
+    .design-shape-2 {
+        top: -11%;
+        width: 52%;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .design-shape-2 {
+        display: none;
+    }
+}
+

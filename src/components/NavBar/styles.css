@@ -1,5 +1,5 @@
 .nav-bar {
-    font-size: 22px;
+    font-size: 1.75vw;
     position: relative;
     left: 5.625%;
     top: 60px;
@@ -37,4 +37,24 @@
 }
 .active:hover {
     opacity: 1;
+}
+@media only screen and (max-width: 933px) {
+    .nav-bar {
+        font-size: 2.25vw;
+    }
+}
+@media only screen and (max-width: 775px) {
+    .nav-bar {
+        font-size: 2.5vw;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .nav-bar {
+        font-size: 3.5vw;
+        left: 12%;
+
+    }
+    .design-nav, .develop-nav, .arts-nav {
+        margin-right: 5%;
+    }
 }

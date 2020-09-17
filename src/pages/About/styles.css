@@ -28,7 +28,7 @@
 }
 .about-text a {
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 500;
     color: var(--light-yellow);
     transition: 0.2s color ease-in-out;
 }
@@ -52,4 +52,73 @@
     width: 88%;
     top: 45px;
     left: 50px;
+}
+/* .design-button p {
+    position: absolute;
+    left: 100px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 5px 7px 5px 7px;
+    border: 0.1px solid;
+    border-radius: 5px;
+}
+.develop-button p {
+    position: absolute;
+    left: 250px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    padding: 5px 7px 5px 7px;
+    border: 0.1px solid;
+    border-radius: 5px;
+} */
+/* .resume-button p {
+    position: absolute;
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px 7px 5px 7px;
+    border: 0.1px solid;
+    border-radius: 5px;
+} */
+.resume-button p {
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+}
+.about-text .line {
+    border: solid var(--light-yellow);
+    border-width: 0px 0 0.5px 0;
+    width: 45px;
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
+    left: 7px;
+}
+.about-text .arrow {
+    border: solid var(--light-yellow);
+    border-width: 0 0.5px 0.5px 0;
+    display: inline-block;
+    padding: 3px;
+    position: relative;
+    bottom: 1px;
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+    display: inline-block;
+    margin-right: 15px;
+}
+.design-button p {
+    font-size: 16px;
+    font-weight: 900;
+    display: inline-block;
+}
+.develop-button p {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    display: inline-block;
+}
+.design-button, .develop-button, .resume-button {
+    display: inline-block;
 }

@@ -9,7 +9,6 @@
 .header-logo {
     max-width: 65px;
     position: absolute;
-    /* left: 5.625%; */
     left: 70px;
     top: 16px;
 }
@@ -17,7 +16,6 @@
 .header-name {
     padding-top: 15px;
     position: absolute;
-    /* right: 5.625%; */
     right: 70px;
     font-family: edita-small, serif;
     font-size: 18px;
@@ -32,8 +30,6 @@
 
 .hovered-head {
     color: var(--light-blue);
-    /* text-decoration: underline;
-    text-decoration-color: #ecd06e; */
     transition: color 0.5s ease-in-out;
 }
 
@@ -47,5 +43,8 @@
     }
     .header-name {
         display: none;
+    }
+    .header-logo {
+        left: 12%;
     }
 }
