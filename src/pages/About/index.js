@@ -20,8 +20,8 @@ const About = () => {
             </div>
             <div className="about-text">
                 <h1>hi, i’m maggie!</h1>
-                <p>I grew up in Cleveland, Ohio, and am currently studying Computer Science and Interaction Design at Northeastern University.</p>
-                <p>I love applying the creative process I've learned through my fine arts background to explore the use of technology as both an inspiration and a tool to produce engaging and intuitive user experiences.</p>
+                <p>I grew up in Cleveland, Ohio, and am currently studying Computer Science and Interaction Design at Northeastern University in Boston, MA.</p>
+                <p>By applying the creative processes I’ve learned through my background in fine arts, I aim to explore the use of technology as both an inspiration and a tool to produce engaging and intuitive user experiences.</p>
                 <p>Some more things that make me happy: live music, art museums, yoga, playing piano, and learning French.</p>
                 <p>Please feel free to contact me through email (mnavracruz@gmail.com) or view some examples of my work using the information below!</p>
                 <a href={resume} target="_blank" rel="noopener noreferrer">

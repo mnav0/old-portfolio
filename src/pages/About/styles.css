@@ -20,11 +20,11 @@
     font-family: edita, serif;
     font-weight: 600;
     margin-top: 0px;
-    font-size: 32px;
+    font-size: 2.7vw;
 }
 .about-text p {
     font-weight: 200;
-    font-size: 18px;
+    font-size: 1.4vw;
 }
 .about-text a {
     text-decoration: none;
@@ -53,37 +53,8 @@
     top: 45px;
     left: 50px;
 }
-/* .design-button p {
-    position: absolute;
-    left: 100px;
-    display: inline-block;
-    font-size: 18px;
-    font-weight: 900;
-    padding: 5px 7px 5px 7px;
-    border: 0.1px solid;
-    border-radius: 5px;
-}
-.develop-button p {
-    position: absolute;
-    left: 250px;
-    display: inline-block;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: 0.12em;
-    padding: 5px 7px 5px 7px;
-    border: 0.1px solid;
-    border-radius: 5px;
-} */
-/* .resume-button p {
-    position: absolute;
-    display: inline-block;
-    font-size: 18px;
-    padding: 5px 7px 5px 7px;
-    border: 0.1px solid;
-    border-radius: 5px;
-} */
 .resume-button p {
-    font-size: 14px;
+    font-size: 1.1vw;
     font-weight: 500;
     display: inline-block;
 }
@@ -109,12 +80,12 @@
     margin-right: 15px;
 }
 .design-button p {
-    font-size: 16px;
+    font-size: 1.3vw;
     font-weight: 900;
     display: inline-block;
 }
 .develop-button p {
-    font-size: 16px;
+    font-size: 1.3vw;
     font-weight: 500;
     letter-spacing: 0.12em;
     display: inline-block;

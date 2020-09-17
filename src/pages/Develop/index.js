@@ -15,7 +15,7 @@ const Develop = () => {
         <NavBar />
         <DevelopShape2 className="develop-shape-2"/>
         <a href="https://idea-anniversary.netlify.app/" target="_blank" rel="noopener noreferrer"className="idea-overview">
-                <ProjectOverview background="rgba(255, 251, 245, 0.8) !important" projectTitle="IDEA 10 Year Anniversary" projectDescription="A website to celebrate the 10 year anniversary of IDEA, Northeastern University’s student-led venture accelerator."
+                <ProjectOverview background="rgba(255, 251, 245, 0.8) !important" projectTitle="IDEA" projectDescription="A website to celebrate the 10 year anniversary of IDEA, Northeastern University’s student-led venture accelerator."
                             projectTags={["UI/UX", "Wireframing", "User Research", "React"]}
                             desktopImage={ideaDesktop} mobileImage={ideaMobile}/>                   
         </a>
