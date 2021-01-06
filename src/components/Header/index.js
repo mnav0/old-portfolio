@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import './styles.css';
 import logoHead from '../../assets/logo-sm-full.png';
 
-
 const Header = () => {
     const [hoverHeadName, setHoverHead] = useState(false);
     const [hoverHeadLogo, setHoverLogo] = useState(false);
@@ -24,7 +23,7 @@ const Header = () => {
                                 className = "header-logo" alt="Logo"/></NavLink>
             <NavLink to="/about" onMouseEnter={() => updateHoverHead()}
                                 onMouseLeave={() => updateHoverHead()}
-                                className = {headerName}>magdalena navracruz</NavLink>
+                                className = {headerName}>ma<span>g</span>dalena navracruz</NavLink>
             <NavLink to="/about" onMouseEnter={() => updateHoverHead()}
                                 onMouseLeave={() => updateHoverHead()}
                                 className = {headerName + " header-mobile"}>mn</NavLink>

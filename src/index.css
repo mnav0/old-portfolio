@@ -6,12 +6,74 @@
 
 }
 body {
+  font-family: 'fira-sans-extralight', sans-serif;
   margin: 0;
-  font-family: 'fira-sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* @font-face {
-  font-family: 'Fira Sans', sans-serif;
-  src: local('Fira Sans'), url('firasans.woff'), format('woff');
-} */
+@font-face {
+  font-family: 'fira-sans-black';
+  src: url(/FiraSans-Black.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'fira-sans-regular';
+  src: url(/FiraSans-Regular.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'fira-sans-medium';
+  src: url(/FiraSans-Medium.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'fira-sans-italic';
+  src: url(/FiraSans-Italic.ttf) format('truetype');
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'fira-sans-light';
+  src: url(/FiraSans-Light.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'fira-sans-extralight';
+  src: url(/FiraSans-ExtraLight.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'fira-sans-thin';
+  src: url(/FiraSans-Thin.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'wulkan-bold-italic';
+  src: url(/WulkanDisplay-BoldItalic.otf) format('opentype');
+  font-style: italic;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'wulkan-medium';
+  src: url(/WulkanDisplay-Medium.otf) format('opentype');
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'wulkan-semibold';
+  src: url(/WulkanDisplay-SemiBold.otf) format('opentype');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'wulkan-bold';
+  src: url(/WulkanDisplay-Bold.otf) format('opentype');
+  font-style: normal;
+  font-weight: 800;
+}

@@ -2,10 +2,10 @@
     height: calc(100vh - 170px);
     padding: 125px 13.125% 0 13.125%;
     overflow: hidden;
+    position: relative;
 }
 .project-head .title {
-    font-family: edita, serif;
-    font-weight: 700;
+    font-family: 'wulkan-semibold', serif;
     font-size: 4vw;
     position: relative;
     top: -10px;
@@ -14,20 +14,56 @@
     font-weight: 200;
     font-size: 1.9vw;
 }
-.project-head .desktop {
+.project-head .desktop-container {
     width: 80%;
-    border-radius: 3px 3px 0px 0px;
+    overflow: hidden;
+    max-height: 60vh;
 }
-.project-head .mobile {
+.project-head .mobile-container {
     width: 23%;
     position: absolute;
-    right: 0px;
-    bottom: 2px;
+    right: 0;
+    bottom: -6px;
     z-index: -1;
+}
+.mobile {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+.desktop {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    border-radius: 5px 5px 0px 0px !important;
 }
 .project-head .images {
     position: absolute;
-    bottom: -6px;
+    bottom: -4px;
     z-index: 0;
     width: 73.75%;
+}
+@media only screen and (max-width: 933px) {
+    .project-head {
+        height: calc(80vh - 170px);
+    }
+    /* .project-head .images {
+        bottom: 137px;
+        z-index: 0;
+        width: 55.3125%;
+        padding-left: 6.5625%;
+    } */
+    /* .project-head .mobile {
+        width: 21%;
+        bottom: 4px;
+    } */
+}
+@media only screen and (max-width: 775px) {
+
+}
+@media only screen and (max-width: 650px) {
+
+}
+@media only screen and (max-width: 532px) {
+
 }

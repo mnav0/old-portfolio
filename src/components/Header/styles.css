@@ -2,7 +2,6 @@
     height: 45px;
     background-color: #ffffff;
     overflow-x: hidden;
-    overflow-y: hidden;
     position: relative;
 }
 
@@ -14,23 +13,35 @@
 }
 
 .header-name {
-    padding-top: 15px;
+    background-color: #ffffff;
+    padding-top: 16px;
     position: absolute;
     right: 70px;
-    font-family: edita-small, serif;
-    font-size: 18px;
+    font-family: wulkan-semibold, serif;
+    font-size: 17px;
     text-decoration: none;
+    line-height: 1;
+    box-shadow:
+    inset 0 -0.075em var(--pink);
     color: var(--dark-blue);
     cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out;
 }
-
+.header-name span {
+    text-shadow:
+    2px 7px white,
+    1px 7px white,
+    -1px 7px white,
+    0px 1px white;
+}
 .header-mobile {
     display: none;
 }
 
 .hovered-head {
-    color: var(--light-blue);
-    transition: color 0.5s ease-in-out;
+    box-shadow:
+    inset 0 -0.075em var(--light-blue);
+    transition: box-shadow 0.2s ease-in-out;
 }
 
 .hovered-logo {

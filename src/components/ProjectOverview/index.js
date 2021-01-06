@@ -16,9 +16,9 @@ const ProjectOverview = (props) => {
             </div>
             <div className="images">
                 <div className="desktop-container">
-                    <img src={props.desktopImage} alt="Desktop screenshot" className="desktop"/>
+                    <img src={props.desktopImage} alt="Desktop screenshot" className="desktop-img"/>
                 </div>
-                <img src={props.mobileImage} alt="Mobile screenshot" className="mobile"/>
+                <img src={props.mobileImage} alt="Mobile screenshot" className="mobile-img"/>
             </div>
         </div>
     );

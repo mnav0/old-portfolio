@@ -15,10 +15,10 @@
     right: 0%;
     width: 47%;
     color: var(--light-yellow);
+    line-height: 1.4;
 }
 .about-text h1 {
-    font-family: edita, serif;
-    font-weight: 600;
+    font-family: 'wulkan-semibold', serif;
     margin-top: 0px;
     font-size: 2.7vw;
 }
@@ -55,7 +55,7 @@
 }
 .resume-button p, .linkedin-button p {
     font-size: 1.1vw;
-    font-weight: 500;
+    font-family: 'fira-sans-medium', sans-serif;
     display: inline-block;
 }
 .about-text .line {
@@ -81,14 +81,14 @@
 }
 .design-button p {
     font-size: 1.3vw;
-    font-weight: 900;
+    font-family: 'fira-sans-black', sans-serif;
     display: inline-block;
     color: var(--light-blue);
     margin-top: 0px;
 }
 .develop-button p {
     font-size: 1.3vw;
-    font-weight: 500;
+    font-family: 'fira-sans-medium', sans-serif;
     letter-spacing: 0.12em;
     display: inline-block;
     color: var(--light-blue);
@@ -96,7 +96,7 @@
 }
 .github-button p {
     font-size: 1.2vw;
-    font-weight: 400;
+    font-family: 'fira-sans-regular', sans-serif;
     display: inline-block;
 }
 .design-button, .develop-button, .resume-button, .github-button, .linkedin-button {
