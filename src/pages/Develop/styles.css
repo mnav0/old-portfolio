@@ -7,7 +7,7 @@
 
 .idea-overview {
     position: relative;
-    top: 125px;
+    top: 175px;
 }
 .service-portal-overview {
     position: relative;
@@ -19,4 +19,8 @@
 .worksense-overview {
     position: relative;
     top: 75px;
+}
+.mixtape-overview {
+    position: relative;
+    top: 125px;
 }

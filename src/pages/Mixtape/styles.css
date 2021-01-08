@@ -1,0 +1,10 @@
+.mixtape a {
+    text-decoration: none;
+    font-family: 'fira-sans-regular', sans-serif;
+    color: var(--light-yellow);
+    transition: 0.2s color ease-in-out;
+}
+.mixtape a:hover {
+    color: var(--light-blue);
+    transition: 0.2s color ease-in-out;
+}

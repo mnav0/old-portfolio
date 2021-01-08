@@ -10,6 +10,7 @@ import Wandr from '../Wandr';
 import PWP from '../PWP';
 import SelfService from '../SelfService';
 import IDEA from '../IDEA';
+import Mixtape from '../Mixtape'
 
 import Header from '../../components/Header';
 import styles from './styles.css';
@@ -29,6 +30,7 @@ const App = () => {
              <Route path="/pwp" component={PWP}/>
              <Route path="/selfservice" component={SelfService}/>
              <Route path="/idea" component={IDEA}/>
+             <Route path="/mixtape" component={Mixtape}/>
       </Switch>
     </div>
     </BrowserRouter>

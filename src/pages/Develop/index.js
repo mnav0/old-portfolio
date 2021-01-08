@@ -10,6 +10,8 @@ import ideaDesktop from '../../assets/idea-desktop-1.png';
 import ideaMobile from '../../assets/idea-mobile-1.png';
 import worksenseDesktop from '../../assets/worksense-desktop-1.png';
 import worksenseMobile from '../../assets/worksense-mobile-1.png';
+import mixtapeDesktop from '../../assets/mixtape-desktop-1.png';
+import mixtapeMobile from '../../assets/mixtape-mobile-1.png';
 
 const Develop = () => {
     return (
@@ -21,16 +23,21 @@ const Develop = () => {
                             projectTags={["React", "Contentful CMS", "Gatsby", "User Research"]}
                             desktopImage={worksenseDesktop} mobileImage={worksenseMobile} />                   
         </a>
-        <a href="https://idea-anniversary.netlify.app/" target="_blank" rel="noopener noreferrer"className="idea-overview">
-                <ProjectOverview background="rgba(255, 251, 245, 0.8) !important" projectTitle="IDEA" projectDescription="A website to celebrate the 10 year anniversary of IDEA, Northeastern University’s student-led venture accelerator."
-                            projectTags={["UI/UX", "Wireframing", "User Research", "React"]}
-                            desktopImage={ideaDesktop} mobileImage={ideaMobile}/>                   
-        </a>
+        <NavLink to="/mixtape" className="mixtape-overview">
+                <ProjectOverview background="rgba(255, 251, 245, 0.8) !important" projectTitle="Mixtape" projectDescription="A music-listening service that uses a remote database which can be edited by users on the front-end."
+                            projectTags={["MySQL", "ORM", "Database Management", "Bootstrap", "React"]}
+                            desktopImage={mixtapeDesktop} mobileImage={mixtapeMobile}/>                   
+        </NavLink>
         <NavLink to="/selfservice" className="service-portal-overview">
                 <ProjectOverview background="rgba(255, 251, 245, 0.8) !important" projectTitle="Self-Service Portal" projectDescription="A self-service technology help portal to empower Manulife/John Hancock employees."
                             projectTags={["UI/UX", "Prototyping", "HTML/CSS", "JavaScript"]}
                             desktopImage={selfServiceDesktop} mobileImage={selfServiceMobile}/>
                             </NavLink>
+        <a href="https://idea-anniversary.netlify.app/" target="_blank" rel="noopener noreferrer"className="idea-overview">
+                <ProjectOverview background="rgba(255, 251, 245, 0.8) !important" projectTitle="IDEA" projectDescription="A website to celebrate the 10 year anniversary of IDEA, Northeastern University’s student-led venture accelerator."
+                            projectTags={["UI/UX", "Wireframing", "User Research", "React"]}
+                            desktopImage={ideaDesktop} mobileImage={ideaMobile}/>                   
+        </a>
         </div>
         
     );
