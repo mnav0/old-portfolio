@@ -8,12 +8,19 @@ import selfServiceDesktop from '../../assets/self-service-desktop-1.png';
 import selfServiceMobile from '../../assets/self-service-mobile-1.png';
 import ideaDesktop from '../../assets/idea-desktop-1.png';
 import ideaMobile from '../../assets/idea-mobile-1.png';
+import worksenseDesktop from '../../assets/worksense-desktop-1.png';
+import worksenseMobile from '../../assets/worksense-mobile-1.png';
 
 const Develop = () => {
     return (
         <div>
         <NavBar />
         <DevelopShape2 className="develop-shape-2"/>
+        <a href="https://worksenseanalytics.com/" target="_blank" rel="noopener noreferrer"className="worksense-overview">
+                <ProjectOverview background="rgba(255, 251, 245, 0.8) !important" projectTitle="Worksense" projectDescription="A marketing website for Worksense, an analytics tool that helps employers track diversity and inclusion across the employment lifecycle."
+                            projectTags={["React", "Contentful CMS", "Gatsby", "User Research"]}
+                            desktopImage={worksenseDesktop} mobileImage={worksenseMobile} />                   
+        </a>
         <a href="https://idea-anniversary.netlify.app/" target="_blank" rel="noopener noreferrer"className="idea-overview">
                 <ProjectOverview background="rgba(255, 251, 245, 0.8) !important" projectTitle="IDEA" projectDescription="A website to celebrate the 10 year anniversary of IDEA, Northeastern University’s student-led venture accelerator."
                             projectTags={["UI/UX", "Wireframing", "User Research", "React"]}

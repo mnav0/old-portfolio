@@ -7,12 +7,16 @@
 
 .idea-overview {
     position: relative;
-    top: 75px;
+    top: 125px;
 }
 .service-portal-overview {
     position: relative;
-    top: 125px;
+    top: 175px;
 }
 .service-portal-overview .project-overview {
     margin-bottom: 50px;
+}
+.worksense-overview {
+    position: relative;
+    top: 75px;
 }
