@@ -20,7 +20,7 @@ const Develop = () => {
         <DevelopShape2 className="develop-shape-2"/>
         <a href="https://worksenseanalytics.com/" target="_blank" rel="noopener noreferrer"className="worksense-overview">
                 <ProjectOverview background="rgba(255, 251, 245, 0.8) !important" projectTitle="Worksense" projectDescription="A marketing website for Worksense, an analytics tool that helps employers track diversity and inclusion across the employment lifecycle."
-                            projectTags={["React", "Contentful CMS", "Gatsby", "User Research"]}
+                            projectTags={["React", "Contentful CMS", "Gatsby", "GraphQL", "User Research"]}
                             desktopImage={worksenseDesktop} mobileImage={worksenseMobile} />                   
         </a>
         <NavLink to="/mixtape" className="mixtape-overview">
