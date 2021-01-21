@@ -23,7 +23,7 @@ const About = () => {
                 <p>I grew up in Cleveland, Ohio, and am currently studying Computer Science and Interaction Design at Northeastern University in Boston, MA.</p>
                 <p>By applying the creative processes I’ve learned through my background in fine arts, I aim to explore the use of technology as both an inspiration and a tool to produce engaging and intuitive user experiences.</p>
                 <p>Some more things that make me happy: live music, art museums, yoga, playing piano, and learning French.</p>
-                <p>I am currently searching for full-time opportunities from January to August of 2021.</p>
+                <p>I am currently working as a Software Engineer Co-op at <a className="meiday-link" href="http://meiday.health/" target="_blank" rel="noopener noreferrer">Meiday Health</a>, and I'm searching for full-time internship opportunities from May to August of 2021.</p>
                 <p>Please feel free to contact me through email (mnavracruz@gmail.com) or view some examples of my work using the information below!</p>
                 <a href={resume} target="_blank" rel="noopener noreferrer">
                 <div className="resume-button">

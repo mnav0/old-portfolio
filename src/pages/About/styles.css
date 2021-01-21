@@ -109,3 +109,6 @@
     color: var(--light-yellow) !important;
     transition: 0.2s color ease-in-out;
 }
+.meiday-link {
+    font-family: 'fira-sans-regular', sans-serif;
+}
