@@ -97,18 +97,20 @@ const Home = () => {
           with a background in
         </HomeText>
 
-        <ExternalLink
+        {/* <ExternalLink
           href="https://www.instagram.com/mnclaire/?hl=en"
           target="_blank"
           rel="noopener noreferrer"
           hovered={hoverDesign || hoverDevelop}
-        >
+        > */}
+        <HoverLink to="/arts" hovered={hoverDesign || hoverDevelop}>
           <HomeHover
             setHovered={setHovered}
             setNotHovered={setNotHovered}
             text="fine arts"
           />
-        </ExternalLink>
+        </HoverLink>
+        {/* </ExternalLink> */}
 
         <HomeText hovered={hoverDesign || hoverArts || hoverDevelop}>
           .

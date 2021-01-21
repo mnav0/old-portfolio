@@ -27,9 +27,13 @@ const NavBar = () => {
            <NavLink to="/develop" className={hoverNavDevelop ? "active" : "resting-state"} activeClassName="active"
                                             onMouseEnter={() => updateHoverNavDevelop()}
                                             onMouseLeave={() => updateHoverNavDevelop()}><div className="develop-nav">developer</div></NavLink>
-           <a href="https://www.instagram.com/mnclaire/?hl=en" target="_blank" rel="noopener noreferrer" className={hoverNavArts ? "active" : "resting-state"} activeClassName="active"
+           <NavLink to="/arts" className={hoverNavDevelop ? "active" : "resting-state"} activeClassName="active"
+                                            onMouseEnter={() => updateHoverNavDevelop()}
+                                            onMouseLeave={() => updateHoverNavDevelop()}><div className="arts-nav">fine artist</div></NavLink>
+
+{/* <a href="https://www.instagram.com/mnclaire/?hl=en" target="_blank" rel="noopener noreferrer" className={hoverNavArts ? "active" : "resting-state"} activeClassName="active"
                                             onMouseEnter={() => updateHoverNavArts()}
-                                            onMouseLeave={() => updateHoverNavArts()}><div className="arts-nav">fine artist</div></a>
+                                            onMouseLeave={() => updateHoverNavArts()}><div className="arts-nav">fine artist</div></a> */}
         </div>
         
     );
